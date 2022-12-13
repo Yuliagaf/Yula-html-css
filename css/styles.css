@@ -11,6 +11,7 @@
   --primary-text-color:#757575;
   --title-text-color:#212121;
   --accent-color: #2196F3;
+  --primery-bg-color: #FFFFFF;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
 /* Hero */
 
 .hero-title {
-  color: #FFFFFF;
+  color: var(--primery-bg-color)
 }
 
 /* Section */
@@ -59,4 +60,21 @@ body {
 }
 
 /* Examples */
+/* Our team */
 
+.team-list .title {
+  color:var(--title-text-color)
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color)
+  background-color: var(--accent-color)
+  
+}
+
+.button.primary {
+  color: var(--primery-bg-color);
+  background-color: var(--accent-color);
+}
