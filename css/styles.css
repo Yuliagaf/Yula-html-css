@@ -18,6 +18,11 @@ body {
     background-color:#F5F5F5;
     color: var(--primary-text-color)
      }
+  div {
+           background-color: #2F303A;
+           color: var(--primary-text-color)
+      }
+
 .list {
   list-style: none;
 }     
@@ -46,7 +51,7 @@ body {
 .social .link:hover, .social .link:focus {
   color: var(--accent-color)
 }
-
+ /* Стили для  index.html*/
 /* Hero */
 
 .hero-title {
@@ -84,3 +89,26 @@ body {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
 }
+
+/* Footer */
+
+footer {
+    background-color: #2F303A;
+    color: var(--primary-text-color)
+  }
+
+  .footer-logo .link {
+    color: var(--accent-color);
+  }
+  .footer-logo .header {
+  color: var(--primery-bg-color);
+  }
+.footer-list .title {
+color: var(--primery-bg-color)
+}
+
+.footer .link {
+  color:rgba(255, 255, 255, 0.6);
+}
+/* Стили для portfolio.html */
+
