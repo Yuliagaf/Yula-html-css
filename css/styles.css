@@ -28,12 +28,18 @@ body {
 .logo-header {
   color: var(--title-text-color)
 }
+
 .site-nav .link {
   color: var(--title-text-color)
 }
 .site-nav .link:hover, .site-nav .link:focus {
   color:var(--accent-color)
 }
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .social .link {
   color: var(--primary-text-color)
 }
