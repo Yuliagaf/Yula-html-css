@@ -84,12 +84,14 @@ body {
 /* Hero */
 
 .hero-title {
+  padding-top: 200px;
   color: var(--primery-bg-color);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Section */
@@ -160,6 +162,7 @@ body {
 .button.primary {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
+  padding-bottom:  200px;
 }
 
 /* Footer */
