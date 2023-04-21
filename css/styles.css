@@ -84,7 +84,7 @@ body {
 /* Hero */
 
 .hero-title {
-  padding-top: 200px;
+ 
   color: var(--primery-bg-color);
   font-size: 44px;
   font-weight: 900;
@@ -92,7 +92,12 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   margin-bottom: 30px;
+  
 }
+
+.hero {
+ padding: 200px 0 280px;
+ }
 
 /* Section */
 
@@ -110,18 +115,24 @@ body {
 .feature-list .title {
   color: var(--title-text-color);
   
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.1;
-       
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0; 
 }
 
 .feature-list .text {
   
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
     
+}
+
+.feature-text {
+  margin-top: 10px;
+  width: 270px;
 }
 /* Examples */
 /* Our team */
@@ -162,7 +173,8 @@ body {
 .button.primary {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
-  padding-bottom:  200px;
+  padding: 10px 32px;
+    
 }
 
 /* Footer */
@@ -224,7 +236,8 @@ footer {
 .container1 {
   display: flex;
   flex-wrap: nowrap;
-  padding: 5px;
+  padding-left: 215px;
+  
 }
 .item {
   margin: 30px;
