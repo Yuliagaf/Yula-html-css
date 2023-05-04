@@ -66,17 +66,25 @@ img {
           
 }
 .site-nav {
-display: flex;
-align-items: center;
-gap: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 .logo-header {
-  color: var(--title-text-color);
+    color: #000000;
     font-family: Oleo Script, cursive;
     font-size: 26px;
     line-height: 1.4;
     text-align: left;
+}
+
+.logo-header2 {
+  color: var(--primery-bg-color);
+  font-family: Oleo Script, cursive;
+  font-size: 26px;
+  line-height: 1.4;
+  text-align: left;
 }
 
 .site-nav .link {
@@ -144,9 +152,9 @@ gap: 50px;
   color: var(--title-text-color);
   
     font-size: 36px;
-    
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 /* Features */
@@ -175,6 +183,7 @@ gap: 50px;
 }
 /* Examples */
 /* Our team */
+ 
 
 .team-list .title {
   color:var(--title-text-color);
@@ -188,12 +197,32 @@ gap: 50px;
 
 .team-list .text {
   
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
     
-    text-align: center;
+  text-align: center;
 
+}
+
+.team-section {
+  background-color: var(--secondary-bg-color);
+    
+  }
+
+.team-list li {
+  border-radius:border-radius: 0px 0px 4px 4px;
+  
+  overflow: hidden;
+}
+
+.team-list li:hover {
+  background: var(--primery-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding: 30px 62px;
 }
 /* Button */
 
@@ -201,10 +230,10 @@ gap: 50px;
   color: var(--title-text-color);
   background-color: var(--accent-color);
  
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
    
   }
 
@@ -269,6 +298,12 @@ footer {
   color: var(--primary-text-color);
 }
 
+.portfolio-list li:hover {
+  background: var(--primery-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  
+}
+
 .page-nav .button.secondary:hover,
 .page-nav .button.secondary:focus {
     background-color: var(--accent-color)
@@ -287,4 +322,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
+}
+
+.content2 {
+  padding: 20px 24px;
 }
