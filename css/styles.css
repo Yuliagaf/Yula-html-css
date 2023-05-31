@@ -251,6 +251,10 @@ img {
   top: 430px;
 }
 
+.item {
+  margin: 30px;
+}
+
 /* Footer */
 
 footer {
@@ -289,9 +293,22 @@ footer {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.section-logo {
+  padding: 94px 215px 23px 215px;
+  
+}
+
 .button.secondary {
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
+}
+
+.section-portfolio {
+  padding-bottom: 94px;
+  padding-right: 215px;
+  padding-left: 215px;
+
 }
 
 .portfolio-list .title {
@@ -320,13 +337,24 @@ footer {
   gap: 8px;
   
 }
-.item {
-  margin: 30px;
+
+.portfolio-item { 
+width: 370px;
+height: 404px;
+margin-right: 30px;
+margin-bottom: 30px;
 }
+
+.portfolio-item:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
+    width: 1170px;
 }
 
 .content2 {
