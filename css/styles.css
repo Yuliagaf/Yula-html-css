@@ -69,7 +69,7 @@ img {
     text-decoration: none;       
           
 }
-.site-nav, .social {
+.site-nav, .social {sed
   display: flex;
   align-items: center;
   gap: 50px;
@@ -134,9 +134,10 @@ img {
 }
 
 .hero {
-  width: 696px;
+ 
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .hero-title {
@@ -146,9 +147,9 @@ img {
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  text-align: center; 
- 
-  padding: 200px 0 280px;
+
+  margin-bottom: 30px;
+  /* padding: 200px 0 0 0; */
 }
 
 
@@ -253,9 +254,9 @@ img {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
   padding: 10px 32px;
-  position: absolute;  
-  left: 680px;
-  top: 430px;
+  /* position: absolute;   */
+  /* left: 680px;
+  top: 430px; */
   min-width: 216px;
 }
 
